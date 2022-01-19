@@ -3,7 +3,7 @@ def find_pairs_of_numbers(num_list,n):
     pairs = 0 
     for i in num_list:
         for j in num_list:
-            if i!=j and i+j==n:
+            if i != j and i+j == n:
                 pairs+=1 
     if pairs>0:
         return pairs//2
